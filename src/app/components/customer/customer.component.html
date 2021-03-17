@@ -1,0 +1,9 @@
+<th>CUSTOMERS</th>
+<div *ngIf="dataLoaded==false" class="spinner-border text-danger" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <table class="table">
+    <tr *ngFor="let customer of customers">   
+        <td>{{customer.companyName}}</td>
+    </tr>
+</table>
