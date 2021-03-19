@@ -3,19 +3,20 @@
    
     <thead>
         <tr>
-            <th>Description</th>
+            
             <th>Customer</th>
             <th>Company</th>
+            <th>Brand</th>
             <th>RentDate</th>
-            
+            <th>ReturnDate</th>
         
         </tr>
     </thead>
-    <tr *ngFor="let rental of rentals">
-        <td>{{rental.descripton}} </td>
-        <td>{{rental.userName}}</td> 
+    <tr *ngFor="let rental of rentals">    
+        <td>{{rental.customerName}}</td> 
         <td>{{rental.companyName}}</td>
+        <td>{{rental.brandName}}</td>
         <td>{{rental.rentDate}}</td>
-       
+        <td>{{rental.returnDate}} </td>
     </tr>
     </table>

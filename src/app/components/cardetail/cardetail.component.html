@@ -1,7 +1,8 @@
-<th>  CAR DETAILS</th>
+<th>  CAR DETAIL's</th>
 <table class="table">
     <thead>
         <tr>
+           
             <th>Brand</th>
             <th>Color</th>
             <th>Model</th>
@@ -10,6 +11,7 @@
         </tr>
     </thead>
     <tr *ngFor="let cardetail of cardetails">
+        
         <td>{{cardetail.brandName}}</td>
         <td>{{cardetail.colorName}}</td>
         <td>{{cardetail.modelYear}}</td>
