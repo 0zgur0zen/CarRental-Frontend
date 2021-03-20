@@ -12,6 +12,7 @@ import { CustomerComponent } from './components/customer/customer.component';
 import { RentalComponent } from './components/rental/rental.component';
 
 import { CardetailComponent } from './components/cardetail/cardetail.component';
+import { CarimageComponent } from './components/carimage/carimage.component';
 
 
 
@@ -26,6 +27,8 @@ import { CardetailComponent } from './components/cardetail/cardetail.component';
     RentalComponent,
   
     CardetailComponent,
+  
+    CarimageComponent,
   
   
     

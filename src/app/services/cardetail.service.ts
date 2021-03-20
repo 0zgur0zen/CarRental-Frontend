@@ -25,4 +25,6 @@ export class CardetailService {
     let newPath=this.apiUrl + "cars/getallcarsbycolorid?id="+ Id
     return this.httpClient.get<ListResponseModel<Cardetail>>(newPath);
   }
+
+ 
 }
